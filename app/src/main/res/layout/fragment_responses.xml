@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/responses_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/new_response_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrer un message custom" />
+
+    <Button
+        android:id="@+id/add_response_button"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:text="Ajouter une nouvelle reponse"
+        android:layout_gravity="center"/>
+</LinearLayout>
